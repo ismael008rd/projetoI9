@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <header>  
+     <!-- aqui vai ficar a imagem -->
+   </header> 
+
+   <div class="parteSoma">
+    <div class="menu">
+      <div class="credito">
+          <p>credito</p>
+          <input type="text" id="credito">
+      </div>
+      <div class="credito">
+          <p>Debito</p>
+          <input type="text" id="debito">
+      </div>
+      <div class="credito">
+          <p>Total</p>
+          <input type="text" id="result" disabled>
+      </div>
+      <button id="btnSoma">somar</button>
+
+      
+    </div>
+
+    <div class="outras">
+      <label for="total">Total: </label>
+      
+      <input type="number" id="total" step="0.01" " ><br>
+  
+      <label for="preco">Preço Unitário: </label>
+      <input type="number" id="preco" step="0.01"><br>
+  
+      <button onclick="exibirResultados()">Calcular</button>
+  
+      <p id="quantidadeFinal"></p>
+      <p id="desconto"></p>
+
+      <button id="bora">levar valor</button>
+    </div>
+   </div>
+   
+  
+  
+</body>
+</html>

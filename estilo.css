@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .parteSoma {
+    
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .outras input{
+    border: none;
+    height: 20px;
+    background-color: red;
+  }
+  .outras{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 10px;
+    
+    
+  }
+  
+
+  .credito button{
+   
+   
+    margin-bottom: 20px;
+  }
+
+  .menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .credito p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .credito input[type="text"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .credito input[type="text"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+
+  button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #357bd8;
+  }
+
+@media screen and (max-width:800px) {
+  body{
+    max-width: 400px;
+    
+  }
+
+  .parteSoma{
+    max-width: 300px;
+   
+   
+  }
+  .credito input[type="text"]{
+    max-width: 300px;
+    color: red;
+  }
+
+  .menu{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    color: chartreuse;
+    padding: 20px;
+    box-sizing: content-box;
+    background-color: rgb(99, 127, 211);
+  }
+  .outras input{
+    padding: 10px;
+    background-color: #c7d3e3;
+    color:#3171ba;
+    outline: none;
+  }
+  .outras input:focus{
+      outline: red;
+  }
+  #bora{
+    margin-bottom: 70px;
+  }
+}
